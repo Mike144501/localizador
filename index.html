@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Moderna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a la Página de María Guadalupe Santes Razo</h1>
+    <nav>
+      <button onclick="mostrarSeccion('inicio')">Inicio</button>
+      <button onclick="mostrarSeccion('galeria')">Galería</button>
+      <button onclick="mostrarSeccion('contacto')">Contacto</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion activa">
+      <h2>Inicio</h2>
+      <p>Esta es una página moderna de presentación personal o profesional.</p>
+    </section>
+
+    <section id="galeria" class="seccion">
+      <h2>Galería</h2>
+      <div class="imagenes">
+        <img src="img/imagen1.jpg" alt="Imagen 1">
+        <img src="img/imagen2.jpg" alt="Imagen 2">
+        <img src="img/imagen3.jpg" alt="Imagen 3">
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <p>Nombre: María Guadalupe Santes Razo</p>
+      <p>Teléfono: <a href="tel:5656678617">5656678617</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 María Guadalupe Santes Razo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
